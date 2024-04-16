@@ -19,7 +19,7 @@ impl NotificationService{
         let product_type_str: &str = product_type_upper.as_str();
         let notification_receiver_url: String = format!("{}/receive",
                                                         APP_CONFIG.get_instance_root_url());
-        let payload: SubscriberRequest = SubscriberRequest = SubscriberRequest {
+        let payload: SubscriberRequest = SubscriberRequest {
             name: APP_CONFIG.get_instance_name().to_string(),
             url: notification_receiver_url
         };

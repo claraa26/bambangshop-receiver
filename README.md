@@ -68,16 +68,16 @@ You can install Postman via this website: https://www.postman.com/downloads/
     -   [x] Commit: `Implement list_all_as_string function in Notification repository.`
     -   [x] Write answers of your learning module's "Reflection Subscriber-1" questions in this README.
 -   **STAGE 3: Implement services and controllers**
-    -   [ ] Commit: `Create Notification service struct skeleton.`
-    -   [ ] Commit: `Implement subscribe function in Notification service.`
-    -   [ ] Commit: `Implement subscribe function in Notification controller.`
-    -   [ ] Commit: `Implement unsubscribe function in Notification service.`
-    -   [ ] Commit: `Implement unsubscribe function in Notification controller.`
-    -   [ ] Commit: `Implement receive_notification function in Notification service.`
-    -   [ ] Commit: `Implement receive function in Notification controller.`
-    -   [ ] Commit: `Implement list_messages function in Notification service.`
-    -   [ ] Commit: `Implement list function in Notification controller.`
-    -   [ ] Write answers of your learning module's "Reflection Subscriber-2" questions in this README.
+    -   [x] Commit: `Create Notification service struct skeleton.`
+    -   [x] Commit: `Implement subscribe function in Notification service.`
+    -   [x] Commit: `Implement subscribe function in Notification controller.`
+    -   [x] Commit: `Implement unsubscribe function in Notification service.`
+    -   [x] Commit: `Implement unsubscribe function in Notification controller.`
+    -   [x] Commit: `Implement receive_notification function in Notification service.`
+    -   [x] Commit: `Implement receive function in Notification controller.`
+    -   [x] Commit: `Implement list_messages function in Notification service.`
+    -   [x] Commit: `Implement list function in Notification controller.`
+    -   [x] Write answers of your learning module's "Reflection Subscriber-2" questions in this README.
 
 ## Your Reflections
 This is the place for you to write reflections:
@@ -90,3 +90,9 @@ tanpa memblokir satu sama lain, sehingga dapat meningkatkan kinerja.
 2. Pada rust umumnya variabel statis immutable. Hal tersebut terjadi karen rust mengutamakan keamanan, karena variabel statis
 yang dapat berubah dapat menyebabkan data race. Selain itu, untuk mendorong praktik pemgrograman bersamaan yang aman.
 #### Reflection Subscriber-2
+1. Tidak pernah mengexplore karena takut akan menyebabkan error, paling hanya menambahkan env sesuai ketentuan yang ada 
+pada tutorial saja
+2. Observer pattern memfasilitasi penambahan subscriber pada satu instance. Namun, jika ingin melakukan spawning multiple
+instance memungkinkan saja, tapi kompleksitasnya akan tinggi sehingga menangani lebih banyak beban.
+3. Sudah pernah dulu waktu pbp, namun untuk tugas adpro ini saya belum mencoba. Mungkin nanti saya akan mencoba untuk 
+membuat dokumentasi dengan postman.
